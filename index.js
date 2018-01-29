@@ -1,7 +1,7 @@
-cheet('pikachu', function () {
+('pikachu', function () {
     window.setTimeout(openMouth, 200);
       playPikachu();
-});
+})();
 
 function playPikachu() {
     var pikachu = document.getElementById('audio');
